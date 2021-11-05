@@ -37,6 +37,7 @@ img {
     display: flex;
     max-width: 700px;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 .plan {
     display: flex;
@@ -87,4 +88,14 @@ ins {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
-  
+
+@media all and (max-width: 500px) {
+    .family {
+        font-size: 18px;
+        margin-left: 25px;
+    }
+    .sweet {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+}
