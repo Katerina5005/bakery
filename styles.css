@@ -42,10 +42,10 @@ img {
     flex-direction: column;
     background-color: pink;
     margin: 20px;
-    padding: 2px;
+    padding: 20px;
 }
 
-h2, img {
+h2, img, a {
     align-self: center;
 }
 
@@ -76,6 +76,14 @@ ins {
     display: inline-block;
     transform: rotate(-7deg);
     text-decoration: none;
+}
+
+.cta {
+    background-color: #aa96da;
+    color: #ffffd2;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
 }
 
     
