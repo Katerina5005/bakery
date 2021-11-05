@@ -32,6 +32,7 @@ h1 {
 img {
     width: 40vh;
 }
+
 .featuring {
     display: flex;
     max-width: 700px;
@@ -43,6 +44,7 @@ img {
     background-color: pink;
     margin: 20px;
     padding: 20px;
+    flex: 1;
 }
 
 h2, img, a {
@@ -85,5 +87,4 @@ ins {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
 }
-
-    
+  
